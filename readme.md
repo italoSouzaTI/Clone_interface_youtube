@@ -51,6 +51,12 @@ $ yarn
 # Depois Execute:
 $ react-native link
 
+# Para rodar o device android
+$ npx react-native run-android
+
+# Para rodar o device ios
+$ npx react-native run-ios
+
 ```
 
 ## 💻 Tecnologias utilizadas 
