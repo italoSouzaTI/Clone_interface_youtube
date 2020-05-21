@@ -3,6 +3,7 @@ import styled from 'styled-components/native';
 export const Container = styled.View`
   /* background: red; */
   flex: 1;
+  background: #212121;
 `;
 export const ContainerVideo = styled.View`
   width: 100%;

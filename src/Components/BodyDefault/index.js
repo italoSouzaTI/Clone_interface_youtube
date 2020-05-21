@@ -1,7 +1,12 @@
 import React from 'react';
 import {FlatList} from 'react-native';
 import IconsET from 'react-native-vector-icons/Entypo';
+//import component
 import Header from '../Header';
+import FlatLTHorizontal from '../FlatLTHorizontal';
+import FlatBtn from '../FlatBtn';
+import FlatHistory from '../FlatHistory';
+
 import {
   Container,
   ContainerVideo,
@@ -15,7 +20,7 @@ import {
   Outhers,
   SubTitleVideo,
   LineView,
-} from './styles';
+} from '../Body/styles';
 import tb1 from '../../assets/img1.jpg';
 import tb2 from '../../assets/img2.jpg';
 import tb3 from '../../assets/img3.jpg';
@@ -24,7 +29,6 @@ import prop1 from '../../assets/MT.jpg';
 import prop2 from '../../assets/Fds.jpg';
 import prop3 from '../../assets/RT.jpg';
 import prop4 from '../../assets/Ftt.jpg';
-
 const items = [
   {
     key: String(Math.random()),
@@ -66,14 +70,21 @@ const items = [
   },
 ];
 
-const Body = () => {
+const BodyDefault = () => {
   return (
     <Container>
       <FlatList
         showsHorizontalScrollIndicator={false}
         data={items}
         keyExtractor={(item) => item.key}
-        ListHeaderComponent={() => <Header />}
+        ListHeaderComponent={() => (
+          <>
+            <Header />
+            <FlatLTHorizontal />
+            <FlatBtn />
+            <FlatHistory />
+          </>
+        )}
         renderItem={({item}) => (
           <>
             <ContainerVideo key={String(item.key)}>
@@ -100,4 +111,4 @@ const Body = () => {
   );
 };
 
-export default Body;
+export default BodyDefault;

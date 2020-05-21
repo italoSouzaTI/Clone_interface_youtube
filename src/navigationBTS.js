@@ -47,7 +47,7 @@ function Badge({name, count, color, size}) {
 const navigation = () => {
   return (
     <Tab.Navigator
-      initialRouteName={Start}
+      initialRouteName="Start"
       screenOptions={({route, navigation}) => ({
         tabBarIcon: ({color, size}) => {
           const {lib: Icon, name} = icons[route.name];
@@ -65,13 +65,7 @@ const navigation = () => {
         activeTintColor: '#fff',
         inactiveTintColor: '#939393',
       }}>
-      <Tab.Screen
-        name="Start"
-        component={Start}
-        // options={{
-        //   title: 'início',
-        // }}
-      />
+      <Tab.Screen name="Start" component={Start} />
       <Tab.Screen name="Explore" component={Explore} />
       <Tab.Screen name="Subscribers" component={Subscribers} />
       <Tab.Screen name="Inbox" component={Inbox} />

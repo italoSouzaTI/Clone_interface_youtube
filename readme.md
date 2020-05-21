@@ -16,7 +16,7 @@
 
 <h1 align="center">
 
-![youtube-clone](https://user-images.githubusercontent.com/52186505/82170542-1fdab080-989b-11ea-9d33-1c142b072b07.gif)
+![youtubeClone](https://user-images.githubusercontent.com/52186505/82511101-c5cc2c00-9ae2-11ea-92f3-14d2aa38b16a.gif)
 
 </h1>
 
@@ -30,14 +30,16 @@ Projeto Clone interface Youtube, tem como objetivo de estudo [react-navigation V
 
 ## 📖 Etapas
 
-Fase 1° Criação dos layout, refatoração do code:
+**Fase 1° Criação dos layout, refatoração do code:**
 - [x] Inicio
-- [ ] Explorar
-- [ ] Inscrições
-- [ ] Caixa entrada
-- [ ] Biblioteca
+- [x] Explorar
+- [x] Inscrições
+- [x] Caixa entrada
+- [x] Biblioteca
+ > 📢 **Descrição do ocorrido no desenvolvimento:** parte que mais deu um bug um 🤯 foi com ***Flatlist*** pra renderizar vários scrollView dentro de outro ✅. E a parte do ***Picker***, que não conseguir resolver ainda. 
 
-Fase 2° Conexão com API
+**Fase 2° Conexão com API**
+- [ ] Estudo da API Youtube
 
 ## 📥 Como visualizar projeto
 
