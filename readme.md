@@ -3,13 +3,13 @@
 
 ## Índice
 - [Clone Interface 🎬 Youtube( Andamento...)](#clone-interface-%f0%9f%8e%ac-youtube-andamento)
-  - [Índice](#%c3%8dndice)
-  - [📽 Demo](#%f0%9f%93%bd-demo)
-  - [Sobre](#sobre)
-  - [📖 Etapas](#%f0%9f%93%96-etapas)
-  - [📥 Como visualizar projeto](#%f0%9f%93%a5-como-visualizar-projeto)
-  - [💻 Tecnologias utilizadas](#%f0%9f%92%bb-tecnologias-utilizadas)
-    - [Contato](#contato)
+  - [Índice](#-Índice)
+  - [📽 Demo](#-📽-Demo)
+  - [Sobre](#-Sobre)
+  - [📖 Etapas](#-📖-Etapas)
+  - [📥 Como visualizar projeto](#-📥-Como-visualizar-projeto)
+  - [💻 Tecnologias utilizadas](#-💻-Tecnologias-utilizadas)
+  - [Contato](#-Contato)
 
 
 ## 📽 Demo
