@@ -75,7 +75,7 @@ $ npx react-native run-ios
 **Desenvolvido [Ítalo Araújo Souza](https://github.com/italoSouzaTI)**
 
 ### Contato
-[💻 Linkedin](https://www.linkedin.com/in/%C3%ACtaloasouza/)
+[💻 Linkedin](https://www.linkedin.com/in/%C3%ADtaloasouzati/)
 
 📫 **italoasouzat.i@gmail.com**
 
